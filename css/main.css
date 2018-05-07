@@ -13,6 +13,14 @@ nav ul li, footer ul li{
     display: inline;
     margin-right: 20px;
 }
+.container{
+    
+}
+.container-img{
+    border-radius = 50%;
+    width: 200px;
+    height: 200px;
+}
 a{
     text-decoration: none;
     color: #999;
