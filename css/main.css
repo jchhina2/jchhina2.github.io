@@ -52,7 +52,7 @@ ul.posts li{
     list-style: none;
 }
 .dropbtn {
-    background-color: #3498DB;
+    background-color: #888888;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -61,7 +61,7 @@ ul.posts li{
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #777777;
 }
 
 .dropdown {
