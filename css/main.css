@@ -52,6 +52,7 @@ ul.posts li{
     list-style: none;
 }
 .dropbtn {
+    float: right;
     background-color: #888888;
     color: white;
     padding: 16px;
