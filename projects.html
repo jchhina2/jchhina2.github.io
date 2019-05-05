@@ -61,7 +61,7 @@
   <img src="/images/project-images/Pic3.png" alt="Smiley face" width="900" height="600">                                                                            
   </div>
   
-  <button class="collapsible">Project 5: JSON</button>
+  <button class="collapsible">Project 5: JSON Notation</button>
      <div class="content">
      <p>In this project, I utilized JavaScript Object Notation(JSON) to create a map of Rest Areas available
      along Interstate 5 in Washington State</p>                                                                        
@@ -77,11 +77,11 @@
       coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
-        if (content.style.maxHeight) {
-          content.style.maxHeight = null;
+        if (content.style.display === "block") {
+          content.style.display = "none";
         }
         else{
-          content.style.maxHeight = content.scrollHeight + "px";
+          content.style.display = "block";
         }
       });
     }
