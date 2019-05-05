@@ -104,7 +104,7 @@ ul.posts li{
 }
 
 .active, .collapsible:hover {
-    background-color: #345678;
+    background-color: #555;
 }
 
 .collapsible:after {
@@ -115,7 +115,7 @@ ul.posts li{
     margin-left: 5px;
 }
 
-.active:after{
+.active:after {
     content: "\2212";
 }
 
@@ -124,5 +124,5 @@ ul.posts li{
     display: none;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #a09797;
+    background-color: #f1f1f1;
 }
