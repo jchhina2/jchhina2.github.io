@@ -28,14 +28,15 @@
       </nav>
     </div>
   </header>
-  <div class = "UTD Ballers">
-  <h2>Project 1: UTD Ballers App</h2>
+  <button class="collapsible">Project 1: UTD Ballers App</button>
+  <div class="content">
   <p>In this project, a few other students and I collaborated to propose the creation of a mobile app through object-oriented
     analysis and design methods. This app would be a basketball reservation app where students could reserve a spot to play basketball
     with other students in the UTD Activity Center. The proposal contains diagrams such as Class diagrams, Sequence diagrams, and 
     Communication diagrams.</p> 
   <p>Click <a href="/files/Project-files/UTD-Ballers.pdf" target="_blank">Me</a> to see the full document</p>  
-  </div>  
+  </div>
+  
   <div class = "Allen-Restaurants">
      <h2>Project 2: Google Maps API JavaScript</h2>
      <p>In this project, I created a JavaScript webpage where I use a Google Maps API to display some of the restaurants that I have been to 
@@ -63,7 +64,25 @@
      along Interstate 5 in Washington State</p>                                                                        
      <p>Click <a href="https://github.com/jchhina2/Washington-State-Rest-Areas" target="_blank">Me</a> to see my code</p>
      <iframe width="600" height="400" src="https://jchhina2.github.io/Washington-State-Rest-Areas/"></iframe>                  
-  </div>                                                                           
+  </div>
+  
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for(i = 0; i < coll.length; i++){
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        }
+        else{
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>  
 </body>
                                                  
 </html>
